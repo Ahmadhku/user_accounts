@@ -1,0 +1,8 @@
+<!-- phpunit.xml -->
+<phpunit bootstrap="phpunit_bootstrap.php">
+    <testsuites>
+        <testsuite name="User Registration Tests">
+            <directory>tests</directory>  <!-- Ensure this points to the directory containing your tests -->
+        </testsuite>
+    </testsuites>
+</phpunit>
